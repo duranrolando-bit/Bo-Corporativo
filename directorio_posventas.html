@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Directorio Corporativo Claro</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+    color:#d52b1e;
+    margin-bottom:20px;
+}
+
+#buscador{
+    width:100%;
+    max-width:600px;
+    margin:0 auto 25px;
+    display:block;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.contenedor{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#fff;
+    border-radius:15px;
+    padding:18px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.segmento{
+    background:#ff0000;
+    color:white;
+    display:inline-block;
+    padding:5px 10px;
+    border-radius:20px;
+    font-size:12px;
+    margin-bottom:10px;
+}
+
+.segmento2{
+    background:#0000ff;
+    color:white;
+    display:inline-block;
+    padding:5px 10px;
+    border-radius:20px;
+    font-size:12px;
+    margin-bottom:10px;
+}
+
+.segmento3{
+    background:#007700;
+    color:white;
+    display:inline-block;
+    padding:5px 10px;
+    border-radius:20px;
+    font-size:12px;
+    margin-bottom:10px;
+}
+
+.segmento4{
+    background:#9b1ed5;
+    color:white;
+    display:inline-block;
+    padding:5px 10px;
+    border-radius:20px;
+    font-size:12px;
+    margin-bottom:10px;
+}
+
+.segmento5{
+    background:#005f57;
+    color:white;
+    display:inline-block;
+    padding:5px 10px;
+    border-radius:20px;
+    font-size:12px;
+    margin-bottom:10px;
+}
+
+.nombre{
+    font-size:20px;
+    font-weight:bold;
+    color:#333;
+    margin-bottom:10px;
+}
+
+.info{
+    margin-bottom:8px;
+    color:#555;
+}
+
+.botones{
+    margin-top:15px;
+    display:flex;
+    gap:10px;
+}
+
+.btn{
+    flex:1;
+    text-align:center;
+    color:white;
+    text-decoration:none;
+    padding:10px;
+    border-radius:8px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.llamar{
+    background:#28a745;
+}
+
+.correo{
+    background:#007bff;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Directorio Corporativo Claro</h1>
+
+<input
+type="text"
+id="buscador"
+placeholder="Buscar nombre, cargo, correo, celular o distribuidor...">
+
+<div class="contenedor" id="contenedor">
+
+    <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento">Supervisor Posventa Corporativo</div>
+
+        <div class="nombre">Edwin Alfonso Lopez</div>
+
+        <div class="info">📧 edwin.lopezv@claro.com.sv</div>
+
+        <div class="info">📱 70900705</div>
+
+        <div class="botones">
+            <a href="tel:70900705" class="btn llamar">Llamar</a>
+            <a href="mailto:edwin.lopezv@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento">Coordinador Posventa Corporativo</div>
+
+        <div class="nombre">Juan Carlos Aquino</div>
+
+        <div class="info">📧 juanc.aquino@claro.com.sv</div>
+
+        <div class="info">📱 76891144</div>
+
+        <div class="botones">
+            <a href="tel:76891144" class="btn llamar">Llamar</a>
+            <a href="mailto:juanc.aquino@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento">Jefe Back Office y Call Center Corporativo</div>
+
+        <div class="nombre">Ruth Melara</div>
+
+        <div class="info">📧 ruth.melara@claro.com.sv</div>
+
+        <div class="info">📱 63007880</div>
+
+        <div class="botones">
+            <a href="tel:63007880" class="btn llamar">Llamar</a>
+            <a href="mailto:ruth.melara@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento">Subgerente Corporativo SAC</div>
+
+        <div class="nombre">Elsy Milena Murcia</div>
+
+        <div class="info">📧 elsy.murcia@claro.com.sv</div>
+
+        <div class="info">📱 77437770</div>
+
+        <div class="botones">
+            <a href="tel:77437770" class="btn llamar">Llamar</a>
+            <a href="mailto:elsy.murcia@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento">Gerente Servicio al Cliente</div>
+
+        <div class="nombre">Regina Bennett</div>
+
+        <div class="info">📧 bennett.regina@claro.com.sv</div>
+
+        <div class="info">📱 78550181</div>
+
+        <div class="botones">
+            <a href="tel:78550181" class="btn llamar">Llamar</a>
+            <a href="mailto:bennett.regina@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento2">Ejecutivo cuentas Estratégicas y TOP</div>
+
+        <div class="nombre">Erick Alexander Gomez</div>
+
+        <div class="info">📧 erick.gomezh@claro.com.sv</div>
+
+        <div class="info">📱 79868820</div>
+
+        <div class="botones">
+            <a href="tel:79868820" class="btn llamar">Llamar</a>
+            <a href="mailto:erick.gomezh@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento2">Ejecutivo cuentas Estratégicas y TOP</div>
+
+        <div class="nombre">Erika López</div>
+
+        <div class="info">📧 erika.lopezc@claro.com.sv</div>
+
+        <div class="info">📱 79869323</div>
+
+        <div class="botones">
+            <a href="tel:79869323" class="btn llamar">Llamar</a>
+            <a href="mailto:erika.lopezc@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+<!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento3">Ejecutivos cuentas TOP</div>
+
+        <div class="nombre">Cecilia Arminda Gonzalez</div>
+
+        <div class="info">📧 cecilia.gonzalezp@claro.com.sv</div>
+
+        <div class="info">📱 70125960</div>
+
+        <div class="botones">
+            <a href="tel:70125960" class="btn llamar">Llamar</a>
+            <a href="mailto:cecilia.gonzalezp@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento3">Ejecutivos cuentas TOP</div>
+
+        <div class="nombre">Monica Vanessa Abrego</div>
+
+        <div class="info">📧 monica.abrego@claro.com.sv</div>
+
+        <div class="info">📱 76027774</div>
+
+        <div class="botones">
+            <a href="tel:76027774" class="btn llamar">Llamar</a>
+            <a href="mailto:monica.abrego@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento3">Ejecutivos cuentas TOP</div>
+
+        <div class="nombre">Maria de los Angeles Morales Colocho</div>
+
+        <div class="info">📧 maria.moralesc@claro.com.sv</div>
+
+        <div class="info">📱 76028006</div>
+
+        <div class="botones">
+            <a href="tel:76028006" class="btn llamar">Llamar</a>
+            <a href="mailto:maria.moralesc@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento4">Ejecutivos Posventa</div>
+
+        <div class="nombre">Edith Yamileth Menjivar</div>
+
+        <div class="info">📧 edith.menjivar@claro.com.sv</div>
+
+        <div class="info">📱 79867895</div>
+
+        <div class="botones">
+            <a href="tel:79867895" class="btn llamar">Llamar</a>
+            <a href="mailto:edith.menjivar@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento4">Ejecutivos Posventa</div>
+
+        <div class="nombre">Leofredo Cortez</div>
+
+        <div class="info">📧 leofredo.cortez@claro.com.sv</div>
+
+        <div class="info">📱 77407846</div>
+
+        <div class="botones">
+            <a href="tel:77407846" class="btn llamar">Llamar</a>
+            <a href="mailto:leofredo.cortez@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+        <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento4">Ejecutivos Posventa</div>
+
+        <div class="nombre">Maite Michelle Vasquez Morales</div>
+
+        <div class="info">📧 maite.vasquez@claro.com.sv</div>
+
+        <div class="info">📱 77488441</div>
+
+        <div class="botones">
+            <a href="tel:77488441" class="btn llamar">Llamar</a>
+            <a href="mailto:maite.vasquez@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+        <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento4">Ejecutivos Posventa</div>
+
+        <div class="nombre">Cristhian Eduardo Escobar</div>
+
+        <div class="info">📧 cristhian.escobar@claro.com.sv</div>
+
+        <div class="info">📱 79866428</div>
+
+        <div class="botones">
+            <a href="tel:79866428" class="btn llamar">Llamar</a>
+            <a href="mailto:cristhian.escobar@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+        <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento4">Ejecutivos Posventa</div>
+
+        <div class="nombre">Joel Payés</div>
+
+        <div class="info">📧 joele.payes@claro.com.sv</div>
+
+        <div class="info">📱 77400068</div>
+
+        <div class="botones">
+            <a href="tel:77400068" class="btn llamar">Llamar</a>
+            <a href="mailto:joele.payes@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+        <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento4">Ejecutivos Posventa</div>
+
+        <div class="nombre">Astrid Ramirez</div>
+
+        <div class="info">📧 ramirez.astrid@claro.com.sv</div>
+
+        <div class="info">📱 78602608</div>
+
+        <div class="botones">
+            <a href="tel:78602608" class="btn llamar">Llamar</a>
+            <a href="mailto:ramirez.astrid@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+        <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento4">Ejecutivos Posventa</div>
+
+        <div class="nombre">Carlos Eduardo Salinas</div>
+
+        <div class="info">📧 carlos.esalinas@claro.com.sv</div>
+
+        <div class="info">📱 79869845</div>
+
+        <div class="botones">
+            <a href="tel:79869845" class="btn llamar">Llamar</a>
+            <a href="mailto:carlos.esalinas@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+        <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento4">Ejecutivos Posventa</div>
+
+        <div class="nombre">Ana Graciela Zaldivar</div>
+
+        <div class="info">📧 ana.zaldivar@claro.com.sv</div>
+
+        <div class="info">📱 77403088</div>
+
+        <div class="botones">
+            <a href="tel:77403088" class="btn llamar">Llamar</a>
+            <a href="mailto:ana.zaldivar@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+            <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento4">Ejecutivos Posventa</div>
+
+        <div class="nombre">Walter Aquino</div>
+
+        <div class="info">📧 walter.aaquinop@claro.com.sv</div>
+
+        <div class="info">📱 79656050</div>
+
+        <div class="botones">
+            <a href="tel:79656050" class="btn llamar">Llamar</a>
+            <a href="mailto:walter.aaquinop@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+                <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento">Ejecutivo posventa Corporativo</div>
+
+        <div class="nombre">Neftaly Andrade</div>
+
+        <div class="info">📧 andrade.josen@claro.com.sv</div>
+
+        <div class="info">📱 79877077</div>
+
+        <div class="botones">
+            <a href="tel:79877077" class="btn llamar">Llamar</a>
+            <a href="mailto:andrade.josen@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+                <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento">Ejecutivo Soporte Smartphone</div>
+
+        <div class="nombre">Gilberto Rivera</div>
+
+        <div class="info">📧 rivera.gilberto@claro.com.sv</div>
+
+        <div class="info">📱 78428726</div>
+
+        <div class="botones">
+            <a href="tel:78428726" class="btn llamar">Llamar</a>
+            <a href="mailto:rivera.gilberto@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+                <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento">Soporte Especializado TIC</div>
+
+        <div class="nombre">Miguel Zacapa</div>
+
+        <div class="info">📧 miguel.zacapa@claro.com.sv</div>
+
+        <div class="info">📱 77486508</div>
+
+        <div class="botones">
+            <a href="tel:77486508" class="btn llamar">Llamar</a>
+            <a href="mailto:miguel.zacapa@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento5">Ejecutivos Posventa Distribuidor</div>
+
+        <div class="nombre">Johanna Paola Hernandez</div>
+
+        <div class="info">📧 johannap.hernandez@claro.com.sv</div>
+
+        <div class="info">📱 76345958</div>
+
+        <div class="info">🏢 ACCESCOM</div>
+
+        <div class="botones">
+            <a href="tel:76345958" class="btn llamar">Llamar</a>
+            <a href="mailto:johannap.hernandez@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento5">Ejecutivos Posventa Distribuidor</div>
+
+        <div class="nombre">Henry Ramon Serpas Argueta</div>
+
+        <div class="info">📧 henryr.serpasa@claro.com.sv</div>
+
+        <div class="info">📱 76098503</div>
+
+        <div class="info">🏢 FKAMENCO</div>
+
+        <div class="botones">
+            <a href="tel:76098503" class="btn llamar">Llamar</a>
+            <a href="mailto:henryr.serpasa@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento5">Ejecutivos Posventa Distribuidor</div>
+
+        <div class="nombre">Jorge Alberto Mendoza Lopez</div>
+
+        <div class="info">📧 jorge.mendoza@claro.com.sv</div>
+
+        <div class="info">📱 77446633</div>
+
+        <div class="info">🏢 INVERMER</div>
+
+        <div class="botones">
+            <a href="tel:77446633" class="btn llamar">Llamar</a>
+            <a href="mailto:jorge.mendoza@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento5">Ejecutivos Posventa Distribuidor</div>
+
+        <div class="nombre">Nancy Raquel Guevara Melendez</div>
+
+        <div class="info">📧 rnancy.guevara@claro.com.sv</div>
+
+        <div class="info">📱 78624704</div>
+
+        <div class="info">🏢 SIGNO</div>
+
+        <div class="botones">
+            <a href="tel:78624704" class="btn llamar">Llamar</a>
+            <a href="mailto:rnancy.guevara@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento5">Ejecutivos Posventa Distribuidor</div>
+
+        <div class="nombre">Renzo Vladimir Ceron</div>
+
+        <div class="info">📧 rvladimir.ceron@claro.com.sv</div>
+
+        <div class="info">📱 77446344</div>
+
+        <div class="info">🏢 MOBILE SOLUTIONS</div>
+
+        <div class="botones">
+            <a href="tel:77446344" class="btn llamar">Llamar</a>
+            <a href="mailto:rvladimir.ceron@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="card">
+        <div class="segmento5">Ejecutivos Posventa Distribuidor</div>
+
+        <div class="nombre">Sofía Magdalena Candray</div>
+
+        <div class="info">📧 sofiam.candray@claro.com.sv</div>
+
+        <div class="info">📱 78595250</div>
+
+        <div class="info">🏢 SOLINTEGRA</div>
+
+        <div class="botones">
+            <a href="tel:76098503" class="btn llamar">Llamar</a>
+            <a href="mailto:sofiam.candray@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="segmento5">Ejecutivos Posventa Distribuidor</div>
+
+        <div class="nombre">Katherine Stephanie Sanchez</div>
+
+        <div class="info">📧 katherine.sanchez@claro.com.sv</div>
+
+        <div class="info">📱 78595250</div>
+
+        <div class="info">🏢 E-SMART</div>
+
+        <div class="botones">
+            <a href="tel:77496112" class="btn llamar">Llamar</a>
+            <a href="mailto:katherine.sanchez@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="segmento5">Ejecutivos Posventa Distribuidor</div>
+
+        <div class="nombre">Hillary Cortez</div>
+
+        <div class="info">📧 hillary.cortezs@claro.com.sv</div>
+
+        <div class="info">📱 78595250</div>
+
+        <div class="info">🏢 E-SMART</div>
+
+        <div class="botones">
+            <a href="tel:77496112" class="btn llamar">Llamar</a>
+            <a href="mailto:hillary.cortezs@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="segmento5">Ejecutivos Posventa Distribuidor</div>
+
+        <div class="nombre">Vacante</div>
+
+        <div class="info">📧 NA</div>
+
+        <div class="info">📱 NA</div>
+
+        <div class="info">🏢 HABLEMOS</div>
+
+        <div class="botones">
+            <a href="tel:77496112" class="btn llamar">Llamar</a>
+            <a href="mailto:hillary.cortezs@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="segmento5">Ejecutivos Posventa Distribuidor</div>
+
+        <div class="nombre">Vacante</div>
+
+        <div class="info">📧 NA</div>
+
+        <div class="info">📱 NA</div>
+
+        <div class="info">🏢 DISERTEL</div>
+
+        <div class="botones">
+            <a href="tel:77496112" class="btn llamar">Llamar</a>
+            <a href="mailto:hillary.cortezs@claro.com.sv" class="btn correo">Correo</a>
+        </div>
+    </div>
+
+</div>
+
+<script>
+
+const buscador = document.getElementById("buscador");
+
+buscador.addEventListener("keyup", () => {
+
+    const filtro = buscador.value.toLowerCase();
+
+    const cards = document.querySelectorAll(".card");
+
+    cards.forEach(card => {
+
+        const texto = card.textContent.toLowerCase();
+
+        card.style.display =
+            texto.includes(filtro)
+            ? "block"
+            : "none";
+    });
+
+});
+
+</script>
+
+</body>
+</html>
